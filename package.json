@@ -1,8 +1,13 @@
 {
-  "name": "rebirthdb-js",
+  "name": "rethinkdb-js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x",
+    "yarn": ">=1.22.5"
+  },
   "version": "2.3.31",
   "description": "A Node.js driver for RethinkDB with promises and a connection pool",
-  "homepage": "https://github.com/RebirthDB/rebirthdb-js/#readme",
+  "homepage": "https://github.com/Getfeedback/rethinkdb-js/#readme",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
@@ -15,19 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RebirthDB/rebirthdb-js.git"
-  },
-  "keywords": [
-    "rethinkdb",
-    "rebirthdb",
-    "driver",
-    "nodejs"
-  ],
-  "author": "Michel Tu <orphee@gmail.com> (http://justonepixel.com/)",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/RebirthDB/rebirthdb-js/issues"
+    "url": "git+https://github.com/Getfeedback/rethinkdb-js.git"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
